@@ -18,41 +18,18 @@ button{
     color: white;
     background-color: rebeccapurple;
     position: fixed;
-    top: 3px;
-    right: 0px;
     font-size: 1.5rem;
-    /* transition: 0.4s ease-in-out ; */
-    transition:0.4s cubic-bezier(.85,-0.01,.6,.55);
 }
 
-button.active{
-    transform: translateX(-140px);
-    /* transition: ease-in .4s; */
-}
-
-nav{
-    background-color: rebeccapurple;
+.container{
     position: fixed;
-    top:0;
-    right:0;
-    height: 100%;
-    padding: 2rem;
-    transform: translateX(100%);/*this towards axis x 100 % - To right*/
-    /* transition:  0.4s ease-in-out ; */
-transition: 0.4s cubic-bezier(.85,-0.01,.6,.55);
-
+    right: 10px;
+    top: 10px;
 }
-nav.active{
-    transform: translateX(0);
-    /* transition: ease-in .4s; */
-}
-li{
-    padding: 1rem 0;
-}
-nav li{
-    list-style: none;
-}
-nav a{
-    color: white;
-    text-decoration: none;
+ .toast
+{
+    /* background-color: var(--color-container); */
+    padding: 1rem;
+    border-radius: 10px;
+    margin: 1rem;
 }
